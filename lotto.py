@@ -2,6 +2,8 @@
 # 자료 구조 set , 버튼을 나오면 5세트를 한 번에 생성
 # datetime으로 생성 시간도 함께 보여준다.
 
+# lotto v1
+
 import streamlit as st
 import random
 from datetime import datetime
