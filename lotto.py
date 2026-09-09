@@ -31,9 +31,9 @@ def lotto_one_set() -> list :
 # set(중복없이 뽑기), len(개수), sort(정렬)
 # 들여쓰기 tap, 내어쓰기 shift + tap
 st.markdown('---')
-s
+
 st.button('5개 세트 번호 생성하기', key='lotto_btn')
-now_str = datetime.now().strftime('%y-%m-%D %H:%M:%S')
+now_str = f"{now.year:04d}-{now.month:02d}-{now.day:02d} {now.hour:02d}:{now.minute:02d}:{now.second:02d}"
 st.write(f'생성시간: **{now_str}**')
 
 for set_index in range(1,6):
