@@ -33,7 +33,7 @@ def lotto_one_set() -> list :
 st.markdown('---')
 
 st.button('5개 세트 번호 생성하기', key='lotto_btn')
-now_str = datetime.now().strftime('%y-%m-%%d %H:%M:%S')
+now_str = datetime.now().strftime('%y-%m-%d %H:%M:%S')
 st.write(f'생성시간: **{now_str}**')
 
 for set_index in range(1,6):
