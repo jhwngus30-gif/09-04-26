@@ -76,8 +76,6 @@ if st.button("🎲 5개 번호 5세트 생성하기", key="lotto_btn", use_conta
                 <span style="font-weight: 600; font-size: 16px; min-width: 65px;">{set_index}세트:</span>
                 <div style="display: flex; flex-direction: row; align-items: center;">
                     {balls_html}
-                </div>
-            </div>
             """,
             unsafe_allow_html=True
         )
