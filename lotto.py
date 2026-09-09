@@ -3,6 +3,7 @@
 # datetime으로 생성 시간도 함께 보여준다.
 
 # lotto v1
+# lotto v2
 
 import streamlit as st
 import random
